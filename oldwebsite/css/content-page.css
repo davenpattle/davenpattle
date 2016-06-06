@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'GillSans-Light';
+	src: url(../GillSans-Light.ttf);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body {
+	background-color: #FFF;
+	font-family: 'GillSans-Light', sans-serif;
+}
+
+h2 {
+	font-family: 'GillSans-Light', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	text-align: center;
+}
+
+#header {
+
+	width: 100%;
+	height: 150px;
+	background-image: url(../img/header.jpg);
+}
+
+#logo {
+	position: relative;
+	left: 15%;
+	top: 30px;
+	background-repeat: no-repeat;
+	height: 124px;
+	width: 353px;
+	background-image: url(../img/logo_small.png);
+	display: inline-block;
+}
+
+#header-buttons {
+	position: absolute;
+	display: inline-block;
+	top: 80px;
+	right: 10%;
+}
+
+#content-container {
+	width: 100%;
+	height: 100%;
+	text-align:justify;
+}
+
+#main-content {
+	margin-top: 50px;
+	padding: 10px;
+}
+
+
+#main-content img{
+	padding: 8px;
+}
+
+#scroller {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: 60px;
+	padding: 5px;
+}
+
+#scroller li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#sponsors h2 {
+
+	padding-bottom: 15px;
+}
+
+.WordSection1 {
+	padding-top: 5px;
+}
+
+.menu-button {
+	margin-left: 20px;
+	opacity: 1;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out; /* Firefox 4 */
+	-webkit-transition: all 0.5s ease-in-out; /* Safari and Chrome */
+	-o-transition: all 0.5s ease-in-out; /* Opera */
+}
+
+.menu-button:hover {
+
+	opacity:0.7;
+}
+
+#menu {
+	position: fixed;
+	width: 150px;
+	margin-left: -140px;
+	background-color: rgba(0,0,0,0.85);
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.6);
+	top: 50%;
+	margin-top: -204px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out; /* Firefox 4 */
+	-webkit-transition: all 0.5s ease-in-out; /* Safari and Chrome */
+	-o-transition: all 0.5s ease-in-out; /* Opera */
+}
+
+#menu:hover {
+	margin-left: 0px;
+}
+
+.menu-item {
+	font-size: 18px;
+	padding: 4px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: #eee;
+	font-family: 'GillSans-Light', sans-serif;
+	font-weight: lighter;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out; /* Firefox 4 */
+	-webkit-transition: all 0.5s ease-in-out; /* Safari and Chrome */
+	-o-transition: all 0.5s ease-in-out; /* Opera */
+}
+
+.menu-item:hover {
+
+	background-color: rgba(0,0,0,0.2);
+}
+
+.borderless-top {
+	border-style: none;
+	border-top-right-radius: 5px;
+}
+.borderless-bottom {
+	border-bottom-right-radius: 5px;
+}
+
+
+u
+{
+	text-decoration: none;
+	line-height: 16px;
+}
+
+.album-thumbs a
+{
+display:none;
+}
+
+
+.album-cover
+{
+	display:inline-block;
+	box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+	padding:5px;
+	border:1px solid rgba(0,0,0,0.1);
+}
+
+.album-cover p
+{
+	text-align: center;
+font-family: 'GillSans-Light', sans-serif;
+	
+}
+
+.sublink
+{
+	display:none;
+	cursor:	pointer;
+	font-size:13px;
+	
+}
+.sublink:hover
+{
+	font-style:italic;
+}
+
+.expand
+{
+cursor:	default;	
+}
+.expand:hover .sublink
+{
+	display:inline;
+}
+
+#content-container img
+{
+	
+}
+
+
+#scroller ul img
+{
+	cursor:pointer;
+}
+
+#logo 
+{
+	cursor:pointer;
+}
+
+#content-container
+{
+
+}
+
+.teamimg
+{
+	width:150px;
+	display:inline-table;
+	height:150px;
+	vertical-align:middle;
+	border:thin solid rgba(0,0,0,0.1);
+	text-align:center;
+	padding:8px;
+	margin:5px;
+}
+.teamimg div
+{
+	text-align:center;
+}

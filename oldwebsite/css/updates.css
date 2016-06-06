@@ -1,0 +1,35 @@
+.update-container
+{
+	padding:10px;
+	border-radius: 15px;
+	line-height: 24px;
+	margin-bottom:15px;
+	border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.update-container h3
+{
+	font-family: 'GillSans-Light', sans-serif;
+	font-weight: lighter;
+	font-size:28px;
+	text-align: left;
+	
+}
+
+.update-container h6
+{
+	font-family: 'GillSans-Light', sans-serif;
+	font-weight: lighter;
+	font-size:15px;
+	text-align: left;
+	font-style: italic;
+}
+
+.update-container p
+{
+	
+	margin-top:10px;
+	padding-top:10px;
+line-height: 24px;
+}

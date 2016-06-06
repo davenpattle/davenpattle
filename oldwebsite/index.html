@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>NITK Racing</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.simplyscroll.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body onload="pageload();">
+		<div id="logo"  onmouseover="res()" ></div>
+		<div id="hotspot" >
+			<div class="left " onmouseover="left();"></div>
+			<div class="middle ">
+				<div class="middle-top " onmouseover="top_in()" ></div>
+				<div class="middle-middle " onmouseover="res()" ></div>
+				<div class="middle-bottom " onmouseover="bottom_in()" ></div>
+			</div>
+			<div class="right " onmouseover="right_in()">
+				<div id="sponsors" class="tab vert">
+					<h2>Our Sponsors</h2><li id="scroller">
+						<ul><img src="img/sponsors/Daimler.jpg" onclick="gotoURL('sponsors.html#diamler')"/>
+						</ul>                     
+						<ul><img src="img/sponsors/quest.jpg" onclick="gotoURL('sponsors.html#quest')"/>
+						</ul>
+<ul><img src="img/sponsors/bosch.jpg" onclick="gotoURL('sponsors.html#bosch')"/>
+						</ul>
+						<ul><img src="img/sponsors/nitkalumni.jpg" onclick="gotoURL('sponsors.html#nitk')"/>
+						</ul>
+                                                 <ul><img src="img/sponsors/Hotel Ekka.jpg" onclick="gotoURL('sponsors.html#ekaa')"/>
+						</ul>
+<ul><img src="img/sponsors/dh.jpg" onclick="gotoURL('sponsors.html#dhandsons')"/>
+						</ul>
+
+                        
+ <ul><img src="img/sponsors/ppl.jpg" onclick="gotoURL('sponsors.html#ppl')"/>
+						</ul>
+					</li>
+				</div>
+			</div>
+		</div>
+		<div id="menu">
+			<div class="menu-item borderless-top" onclick="gotoURL('updates.html')">
+				Updates
+			</div>
+			<div class="menu-item" onclick="gotoURL('about.html')">
+				About Us
+			</div>
+			<div class="menu-item expand">
+				Events<br />
+
+                <div class="sublink"  onclick="gotoURL('fsmichigan.html')">
+                FS Michigan '11
+                <br />
+                </div>
+                
+
+                <div class="sublink"  onclick="gotoURL('fshu.html')">
+                FS Hungary '12
+                </div>
+                
+                
+			</div>
+			<div class="menu-item expand">
+				Cars<br />
+
+                 <div class="sublink"  onclick="gotoURL('nrxi_nrxii.html')">
+               C&amp;C Alpha NR-XI<br />
+DH NR-XII <br />
+                </div>
+               
+
+                <div class="sublink"  onclick="gotoURL('dicvnrxiii.html')">
+               DICV NR-XIII
+                </div>
+			</div>
+			<div class="menu-item expand">
+				Sponsors <br />
+
+                  <div class="sublink"  onclick="gotoURL('sponsors.html')">
+              Current Sponsors
+                </div>
+               
+
+                <div class="sublink"  onclick="gotoURL('prev_sponsors.html')">
+            Previous Sponsors
+                </div>
+			</div>
+			<div class="menu-item"  onclick="gotoURL('supportus.html')">
+				Support
+			</div>
+			<div class="menu-item expand">
+				Team<br />
+
+                  <div class="sublink"  onclick="gotoURL('team.html')">
+             Team NITK Racing
+                </div>
+               
+
+                <div class="sublink"  onclick="gotoURL('old_team.html')">
+<br/>
+            NITK Racing Alumni
+                </div>
+                
+			</div>
+			<div class="menu-item borderless-bottom"  onclick="gotoURL('gallery.html')">
+				Gallery
+			</div>
+		</div>
+
+		<div id="ticker" class="tab">
+
+			<!--
+			<marquee>
+			TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTex
+			</marquee>
+
+			--->
+		</div>
+		
+		<div id="top-tab" class="tab">
+
+			<h1>Welcome to NITK Racing!</h1>
+			<br />
+			<br />
+
+			<br />
+			<p>
+				We are a team of undergraduate's from NITK Surathkal participating in the Formula Student challenge. This competition involves building a Formula race car for an avid auto-crosser.
+			</p>
+			<br />
+			<p>
+				To our credit we have the lightest Indian FS car; the best Asian team at FS Hungary 2012; the fastest growing Indian team; and the only Indian car to be wind-tunnel tested!
+			</p>
+			<br />
+			<p>
+				Explore more about us by moving your cursor around the screen.
+			</p>
+			<br />
+			<div  style="position:absolute;bottom:10px;">
+			<p>
+				If you are looking for our sister-team, Junkyard Maniacs, here is the 
+                <a href="http://www.nitkbaja.com" style="color:#fff;font-style:italic;">link</a>.
+			</p>
+            </div>
+			<div id="top-img"></div>
+		</div>
+
+		<div id="bottom-tab" class="tab">
+			<h2>Updates</h2>
+			<div id="bottom-left"><img src="Toolbar.jpg" onclick=" gotoURL('updates.html#u4') "/></div>
+			<div id="bottom-middle"><img src="u6.png" onclick=" gotoURL('updates.html#u6')"/></div>
+			<div id="bottom-right"><img src="u5.png" onclick=" gotoURL('updates.html#u5')"/></div>
+            <div id="footer-buttons" style="">
+				<img src="img/Icon_home.png" class="menu-button" title="Home" onclick="gotoURL('index.html')"/>
+                <img src="img/Icon_contact.png" class="menu-button" title="Contact Us" onclick="gotoURL('contact.php')"/>
+				<img src="img/Icon_download.png" class="menu-button" title="Downloads" onclick="gotoURL('download.html')"/>
+                <img src="img/fb.png" class="menu-button" title="Facebook Page" onclick="gotoURL('http://facebook.com/nitkracing')"/>
+				
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			
+		</script>
+	</body>
+</html>

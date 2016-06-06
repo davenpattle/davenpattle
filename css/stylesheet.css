@@ -1,0 +1,296 @@
+body{
+overflow-x: hidden;
+}
+
+.logo{
+display: block;
+width: 80%;
+margin: 0 auto;
+padding-top: 5%;
+}
+
+.bg-black{
+background: #080808;
+}
+
+.bg-red{
+background: #D91E18;
+}
+
+.bg-white{
+ background: #FFFFFF;
+}
+
+.bg-grey{
+background: #D2D7D3;
+}
+
+.content{
+font-family: "Delicious";
+font-size: 2.5rem;
+padding: 5% 10%;
+text-align: justify;
+color: #ffffff;
+}
+
+.content > blockquote{
+ font-family: "Delicious";
+ font-size: 3rem;
+ text-align: center;
+ border: none;
+}
+
+.head{
+ display: block;
+ font-family: "Delicious SmallCaps";
+ font-size: 12rem;
+ text-align: center;
+ color: #D91E18;
+ padding-top: 20%;
+ padding-bottom: 20%;
+ margin: 0 auto;
+ font-style: bold;
+ text-shadow: 0 0 25px #ffffff;
+ opacity: 0.9;
+}
+
+.img-responsive{
+  margin: 2.5% auto;
+}
+
+.margin{
+ margin: 2.5% auto;
+}
+
+.intro{
+   color: #FFFFFF;
+   font-size: 3rem;
+   text-align: center;
+   padding: 2.5% 5%;
+   font-family: 'Delicious SmallCaps';
+   text-shadow: 0px 0px 10px #080808;
+}
+
+.introbody{
+   color: #ffffff;
+   font-size: 1.8rem;
+   text-align: center;
+   padding: 5% 15%;
+   font-family: 'Delicious';
+}
+
+.blacktint{
+background: rgba(08,08,08,0.4);
+background-size: cover;
+height: 100%;
+z-index: 1000;
+}
+
+.redtint{
+background: rgba(217,30,24,0.4);
+background-size: cover;
+height: 100%;
+}
+
+.parallax{
+height: 680px;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.parallax-1{
+background-image: url("../images/teamfsi.jpg");
+}
+
+.parallax-2{
+background-image: url("../images/fsi2.jpg");
+}
+
+.parallax-3{
+background-image: url("../images/teamshoreline.jpg")
+}
+
+.parallax-4{
+background-image: url("../images/nitk.jpg")
+}
+
+.parallax-5{
+background-image: url("../images/sae.jpg")
+}
+
+.parallax-6{
+background-image: url("../images/fsae.jpg")
+}
+
+.parallax-7{
+background-image: url("../images/fsae.jpg")
+}
+
+.parallax-8{
+background-image: url("../images/sponsor.jpg")
+}
+
+.parallax-9{
+background-image: url("../images/car12.jpg")
+}
+
+.parallax-10{
+background-image: url("../images/car3.jpg")
+}
+
+.parallax-11{
+background-image: url("../images/michigan.jpg")
+}
+
+.parallax-12{
+background-image: url("../images/hungary.jpg")
+}
+
+.parallax-13{
+background-image: url("../images/suprasae.jpg")
+}
+
+.parallax-14{
+background-image: url("../images/china.jpg")
+}
+
+.footer{
+margin: 2.5% auto;
+font-family: "Delicious";
+font-size: 2rem;
+}
+
+@media (max-width: 768px){
+.footer{
+text-align: center;
+}
+}
+
+.contactform{
+padding: 10%;
+font-family: "Delicious";
+}
+
+.formlegend{
+font-size: 5rem;
+color: white;
+}
+
+.control-label{
+font-size: 2rem;
+color: white;
+}
+
+.form-control{
+font-size: 2rem;
+color: #D91E18;
+border: none;
+border-radius: 0;
+transition: all 0.4s linear;
+}
+
+.form-control:hover,.form-control:focus{
+font-size: 2rem;
+color: #D91E18;
+border: 1px solid #080808;
+}
+
+.btn{
+font-size: 2rem;
+color: #D91E18;
+transition: all 0.4s linear;
+}
+
+.btn:hover,.btn:focus{
+font-size: 2rem;
+color: #ffffff;
+background: #080808;
+}
+
+.hide{
+display: hidden;
+}
+
+.thankyou{
+font-family: "Delicious";
+font-size: 2.5rem;
+text-align: justify;
+color: #ffffff;
+}
+
+.glyphicon{
+padding: 0 2%;
+}
+
+.panel-default{
+background: none;
+border: none;
+}
+
+.panel-default > .panel-heading{
+background: white;
+border: none;
+border-radius: 0;
+color: #D91E18;
+
+}
+
+.panel-title a {
+    font-family: "Delicious SmallCaps";
+    font-size: 5rem;
+    display: block;
+    padding: 10px 15px;
+    margin: -10px -15px;
+}
+
+.panel-title a > .glyphicon {
+    font-size: 2rem;
+    float: right;
+    padding: 2%;
+}
+
+.addon{
+display: block;
+width: 101%;
+transform: translate(-20px,-50%);
+}
+
+.addon2{
+display: block;
+width: 101%;
+transform: translate(20px,50%);
+}
+
+.navbar {
+ padding-top: 1%;
+ border-radius: 0;
+ background: #080808;
+ font-family: "Delicious SmallCaps";
+}
+
+
+.navbar-brand{
+  font-size: 3rem;
+  color: #D91E18;
+  transition: all 0.4s linear;
+}
+
+.nav  a{
+ font-size: 2rem;
+ transition: all 0.4s linear;
+}
+
+.links a{
+ display: block;
+ font-family:  "Delicious SmallCaps";
+ color: #333333;
+ padding: 0 25%;
+ transition: all 0.4s linear;
+}
+
+.links a:hover{
+color: white;
+}
+

@@ -1,0 +1,36 @@
+.formwrap{
+padding: 5% 10%}
+
+.formlegend{
+   color: #CF000F;
+   font-size: 4rem;
+   font-family: 'Delicious SmallCaps';
+}
+
+.control-label{
+   font-size: 2rem;
+   font-family: 'Delicious';
+}
+
+.form-control{
+  background-color: #080808;
+  border-color:  #BFBFBF;
+  color: #D2D7D3;
+}
+
+.form-control:focus{
+  border: 2px #CF000F solid;
+}
+
+.btn{
+  background-color: #080808;
+  border-color:  #BFBFBF;
+  color: #D2D7D3;
+  font-family: 'Delicious';
+  font-size: 2rem;
+  transition: all 0.4s linear;
+}
+
+.btn:hover{
+  border: 1px #CF000F solid;
+}
