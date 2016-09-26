@@ -156,6 +156,10 @@ background-image: url("../images/suprasae.jpg")
 background-image: url("../images/china.jpg")
 }
 
+.parallax-15{
+background-image: url("../images/fsindia.jpg")
+}
+
 .footer{
 margin: 2.5% auto;
 font-family: "Delicious";
